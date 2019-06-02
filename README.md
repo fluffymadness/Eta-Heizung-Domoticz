@@ -11,12 +11,12 @@ e.g
 
 Neben der Ip-Adresse der Heizung müssen
 im Skript folgende Werte angepasst werden.
-
 Der Wert "domoticzserver" muss angepasst werden, wenn das Skript nicht auf dem Rechner läuft wo sich die Domoticz Instanz befindet
+
+Ebenfalls müssen die deviceids für die virtuellen Domoticz Devices angepasst werden.
 ...
 update("user/var/112/10101/0/0/12241", "DEVICEID") #Heizkreis1 Temperatur
 ...
-
 
 Um Virtuelle Devices zu erstellen, geht man in Domoticz unter Hardware, wählt als Typ "Dummy aus", fügt die Hardware hinzu und klickt dann beim frisch hinzugefügten Device auf "Virtuellen Sensor erstellen"
 
