@@ -23,9 +23,9 @@ Die IDX Werte müssen dann im Skript eingetragen werden.
 
 
 dann mittels sudo crontab -e
-``*/1 * * * * /usr/bin/python3 /home/pi/heizung.py >/dev/null 2>&1
+``*/1 * * * * /usr/bin/python3 /home/pi/heizung.py >/dev/null 2>&1``
 folgende Zeile in Crontab einfügen für eine Ausführung des Skriptes im Minutentakt
-``
+
 
 
 ## Anpassung des Scripts
