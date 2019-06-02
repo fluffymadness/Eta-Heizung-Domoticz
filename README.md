@@ -24,10 +24,9 @@ Diese virtuellen Sensoren findet man dann unter Einrichtung->Geräte.
 Die IDX Werte müssen dann im Skript eingetragen werden.
 
 
-dann mittels sudo crontab -e
+Der nächste Schritt ist mittels sudo crontab -e
 ``*/1 * * * * /usr/bin/python3 /home/pi/heizung.py >/dev/null 2>&1``
-folgende Zeile in Crontab einfügen für eine Ausführung des Skriptes im Minutentakt
-
+folgende Zeile in Crontab einzufügen, um den Skript im Minutentakt auszuführen.
 
 
 ## Anpassung des Scripts
