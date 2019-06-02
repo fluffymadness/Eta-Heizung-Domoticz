@@ -20,7 +20,7 @@ update("user/var/112/10101/0/0/12241", "DEVICEID") #Heizkreis1 Temperatur
 
 Um Virtuelle Devices zu erstellen, geht man in Domoticz unter Hardware, wählt als Typ "Dummy aus", fügt die Hardware hinzu und klickt dann beim frisch hinzugefügten Device auf "Virtuellen Sensor erstellen"
 
-Diese virtuellen Sensoren findet man dann unter Einrichtung->Geräte
+Diese virtuellen Sensoren findet man dann unter Einrichtung->Geräte.
 Die IDX Werte müssen dann im Skript eingetragen werden.
 
 
